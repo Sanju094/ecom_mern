@@ -5,6 +5,8 @@ import toast from "react-hot-toast";
 import useCategory from "../../hooks/useCategory";
 import { useCart } from "../../context/cart"; 
 import { Badge } from "antd";// Import the useCart hook
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Header = () => {
   const [auth, setAuth] = useAuth();

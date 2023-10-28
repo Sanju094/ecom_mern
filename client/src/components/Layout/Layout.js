@@ -3,6 +3,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Helmet } from "react-helmet";
 import  { Toaster } from 'react-hot-toast';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const Layout = ({ children, title, description, keywords, author }) => {
